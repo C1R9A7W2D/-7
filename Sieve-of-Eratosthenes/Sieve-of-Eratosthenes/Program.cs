@@ -78,6 +78,7 @@ namespace Sieve_of_Eratosthenes
             int[] res = PrimeGenerator.generatePrimes(100);
             foreach (int x in res)
                 Console.Write(x + " ");
+            nobuild;
         }
     }
 }
